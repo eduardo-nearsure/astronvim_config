@@ -18,12 +18,6 @@ return {
       null_ls.builtins.formatting.markdownlint, -- markdown
       null_ls.builtins.formatting.black.with { extra_args = { "--fast", "--line-length=120" } }, -- python
       null_ls.builtins.formatting.isort.with { extra_args = { "--line-width", "120" } }, -- python
-      null_ls.builtins.formatting.prettierd.with {
-        filetypes = {
-          "yaml",
-          "graphql",
-        },
-      },
       null_ls.builtins.diagnostics.stylelint, -- css, scss, less, sass
       null_ls.builtins.diagnostics.hadolint, -- dockerfile
       null_ls.builtins.diagnostics.revive, -- golang

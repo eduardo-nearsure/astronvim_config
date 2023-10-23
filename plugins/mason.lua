@@ -32,7 +32,6 @@ return {
         "stylua",
         "markdownlint",
         "black",
-        "prettierd",
         "stylelint",
         "hadolint",
         "revive",
